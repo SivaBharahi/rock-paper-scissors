@@ -8,39 +8,39 @@ function playRound(playerSelection, computerSelection) {
     var result;
  if (computerSelection == "rock" && playerSelection =="rock"){
      console.log("player:", playerSelection, "computer:", computerSelection);
-     result = "it's a tie"
+     result = "it's a tie";
  }
  else if (computerSelection == "rock" && playerSelection =="paper"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "user wins!"
+    result = "user wins!";
 }
 else if (computerSelection == "rock" && playerSelection =="scissor"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "computer wins!"
+    result = "computer wins!";
 }
 else if (computerSelection == "paper" && playerSelection =="paper"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "it's a tie"
+    result = "it's a tie";
 }
 else if (computerSelection == "paper" && playerSelection =="rock"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "computer wins!"
+    result = "computer wins!";
 }
 else if (computerSelection == "paper" && playerSelection =="scissor"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "user wins!"
+    result = "user wins!";
 }
 else if (computerSelection == "scissor" && playerSelection =="scissor"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "it's a tie"
+    result = "it's a tie";
 }
 else if (computerSelection == "scissor" && playerSelection =="rock"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "user wins!"
+    result = "user wins!";
 }
 else if (computerSelection == "scissor" && playerSelection =="paper"){
     console.log("player:", playerSelection, "computer:", computerSelection);
-    result = "computer wins!"
+    result = "computer wins!";
 }
 else{
     console.log("error invalid user input: ", playerSelection);
